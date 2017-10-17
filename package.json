@@ -1,0 +1,27 @@
+{
+  "name": "vue2-easy-toast",
+  "version": "1.0.9",
+  "description": "a toast plugin for vue",
+  "main": "./dist/vue2-easy-toast",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toast",
+    "vue-toast"
+  ],
+  "author": "kathybren",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.0",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.0",
+    "webpack": "^3.7.1"
+  }
+}

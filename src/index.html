@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../node_modules/vue/dist/vue.js"> </script>
+    <script src="../dist/vue2-easy-toast.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div @click="toast">kkkk</div>
+    </div>
+    <script>
+    new Vue({
+        el: '#app',
+        methods: {
+            toast() {
+                this.$toast.show({
+                    meg:'2422',
+                    duration: 1000
+                })
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>
